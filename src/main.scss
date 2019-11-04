@@ -1,0 +1,21 @@
+// Variables
+$danger: red;
+$warning: orange;
+$success: green;
+$dark: black;
+$light: grey;
+
+h1{
+    color: $dark;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+
+    &:hover{
+        background: $dark;
+        color: white;
+    }
+}
