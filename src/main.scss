@@ -1,12 +1,12 @@
-// Variables
-$danger: red;
-$warning: orange;
-$success: green;
-$dark: black;
-$light: grey;
+@import "variables.scss";
+@import "mixins.scss";
 
 h1{
     color: $dark;
+}
+
+h2{
+    @include camion();
 }
 
 .btn{

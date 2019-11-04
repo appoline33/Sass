@@ -2,6 +2,12 @@ h1 {
   color: black;
 }
 
+h2 {
+  border: 2px solid black;
+  background: green;
+  font-size: 30px;
+}
+
 .btn {
   padding: 20px;
   border-radius: 10px;

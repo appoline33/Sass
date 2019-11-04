@@ -1,0 +1,6 @@
+// Mixins
+@mixin camion{
+    border: 2px solid $dark;
+    background: $success;
+    font-size: 30px;
+}
