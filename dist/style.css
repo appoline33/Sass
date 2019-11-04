@@ -26,4 +26,20 @@ h2 {
   background: orange;
 }
 
+.alert, .alert-warning, .alert-danger {
+  padding: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 1px solid black;
+  color: white;
+}
+
+.alert-danger {
+  background: red;
+}
+
+.alert-warning {
+  background: orange;
+}
+
 /*# sourceMappingURL=style.css.map */
