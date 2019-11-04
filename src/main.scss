@@ -13,9 +13,19 @@ h1{
     padding: 20px;
     border-radius: 10px;
     font-size: 25px;
+    color: $dark;
+    background: $light;
 
     &:hover{
         background: $dark;
         color: white;
+    }
+
+    &-danger{
+        background: $danger;
+    }
+    
+    &-warning{
+        background: $warning;
     }
 }

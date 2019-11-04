@@ -2,14 +2,22 @@ h1 {
   color: black;
 }
 
-.btn5 {
+.btn {
   padding: 20px;
   border-radius: 10px;
   font-size: 25px;
+  color: black;
+  background: grey;
 }
-.btn5:hover {
+.btn:hover {
   background: black;
   color: white;
+}
+.btn-danger {
+  background: red;
+}
+.btn-warning {
+  background: orange;
 }
 
 /*# sourceMappingURL=style.css.map */
